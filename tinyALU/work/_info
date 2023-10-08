@@ -1,0 +1,323 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/uio/hume/student-u01/mohammzf/LISP/labtwo/uvmprimer-master/23_UVM_Sequences
+Efour_cycle
+Z1 w1695200209
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8tinyalu_dut/four_cycle_multiadd.vhd
+Z6 Ftinyalu_dut/four_cycle_multiadd.vhd
+l0
+L7 1
+VdSn3ONEBN8bQ[IYb_Bnn63
+!s100 XcUQCOO;JKC0o74OT2K7`0
+Z7 OL;C;2020.4;71
+33
+Z8 !s110 1695204848
+!i10b 1
+Z9 !s108 1695204848.000000
+Z10 !s90 -reportprogress|300|-f|dut.f|
+Z11 !s107 tinyalu_dut/tinyalu.vhd|tinyalu_dut/four_cycle_multiadd.vhd|tinyalu_dut/three_cycle_mult.vhd|tinyalu_dut/single_cycle_add_and_xor.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Amulty
+R2
+R3
+R4
+Z13 DEx4 work 10 four_cycle 0 22 dSn3ONEBN8bQ[IYb_Bnn63
+!i122 0
+l28
+L24 62
+VlC=nT=HBo8SBO[`;_ljIL3
+!s100 QOiS`@>XT25cBc2eXD]C>0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Esingle_cycle
+Z14 w1694512008
+R2
+R3
+R4
+!i122 0
+R0
+Z15 8tinyalu_dut/single_cycle_add_and_xor.vhd
+Z16 Ftinyalu_dut/single_cycle_add_and_xor.vhd
+l0
+Z17 L18 1
+V:Ij;_;FPLzYGNoHM36T<T3
+!s100 ]zLNLiXkF=5o2aD7`HXaW0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Aadd_and_xor
+R2
+R3
+R4
+Z18 DEx4 work 12 single_cycle 0 22 :Ij;_;FPLzYGNoHM36T<T3
+!i122 0
+l40
+L35 60
+Vj:md=BR2_V7diKO2a]fcZ1
+!s100 f<R8<CDn>K7i^QY@jg59d0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Ethree_cycle
+Z19 w1694532821
+R2
+R3
+R4
+!i122 0
+R0
+Z20 8tinyalu_dut/three_cycle_mult.vhd
+Z21 Ftinyalu_dut/three_cycle_mult.vhd
+l0
+L21 1
+V?b?Bg9gU??:QULD5<blm`3
+!s100 OWV05@_zBTOgIT[g_`@_V3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Amult
+R2
+R3
+R4
+Z22 DEx4 work 11 three_cycle 0 22 ?b?Bg9gU??:QULD5<blm`3
+!i122 0
+l41
+L37 39
+V6nh^<>EXS]D2VL5AN>Xc03
+!s100 c_YUXXHkXEGjzFi1nUe0=1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Etinyalu
+Z23 w1695200199
+R2
+R3
+R4
+!i122 0
+R0
+Z24 8tinyalu_dut/tinyalu.vhd
+Z25 Ftinyalu_dut/tinyalu.vhd
+l0
+R17
+Ve>>3]KzdXknVnT3Q5cZLo0
+!s100 @zL:SDECYIVMWCEdYMXz<0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Artl
+R13
+R22
+R18
+DEx4 work 7 tinyalu 0 22 e>>3]KzdXknVnT3Q5cZLo0
+R2
+R3
+R4
+!i122 0
+l110
+L41 166
+VG`XMV6n7Jej72aaWEZMWf3
+!s100 b@PiL[:SX1^Z>3Oe^_MdB0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Ytinyalu_bfm
+Z26 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z27 DXx6 mtiUvm 7 uvm_pkg 0 22 lXjlbbgd2P7=0FIB1[zNj3
+Z28 DXx4 work 11 tinyalu_pkg 0 22 >eeNNW2V<UfW`JM85U1aE1
+Z29 !s110 1695204849
+!i10b 1
+!s100 =QBRT;R0cf]`@bL7ga1MA1
+Z30 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPO<7Padgj;VhnhL]Lm=K^3
+S1
+R0
+w1695199065
+8tinyalu_bfm.sv
+Ftinyalu_bfm.sv
+!i122 1
+Z31 L0 16 0
+Z32 VDg1SIo80bB@j0V0VzS_@n1
+Z33 OL;L;2020.4;71
+r1
+!s85 0
+31
+R9
+Z34 !s107 tinyalu_macros.svh|tb_classes/parallel_test.svh|tb_classes/fibonacci_test.svh|tb_classes/full_test.svh|tb_classes/tinyalu_base_test.svh|tb_classes/parallel_sequence.svh|tb_classes/env.svh|tb_classes/result_monitor.svh|tb_classes/command_monitor.svh|tb_classes/driver.svh|tb_classes/scoreboard.svh|tb_classes/coverage.svh|tb_classes/result_transaction.svh|tb_classes/short_random_sequence.svh|tb_classes/fibonacci_sequence.svh|tb_classes/add_sequence.svh|tb_classes/runall_sequence.svh|tb_classes/tinyalu_or_mad_parallel_sequence.svh|tb_classes/tinyalu_mad_sequence.svh|tb_classes/tinyalu_or_sequence.svh|tb_classes/maxmult_sequence.svh|tb_classes/random_sequence.svh|tb_classes/mad_sequence_item.svh|tb_classes/or_sequence_item.svh|tb_classes/add_sequence_item.svh|tb_classes/reset_sequence.svh|tb_classes/sequence_item.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top.sv|tinyalu_bfm.sv|tinyalu_pkg.sv|
+Z35 !s90 -reportprogress|300|-f|tb.f|
+!i113 0
+Z36 o-suppress 2286 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z37 !s92 -suppress 2286 +incdir+tb_classes -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z38 tCvgOpt 0
+Xtinyalu_pkg
+!s115 tinyalu_bfm
+R26
+R27
+R29
+!i10b 1
+!s100 [I7RGFYe39:G_dRRzm^kV1
+R30
+I>eeNNW2V<UfW`JM85U1aE1
+S1
+R0
+w1695204844
+8tinyalu_pkg.sv
+Ftinyalu_pkg.sv
+Z39 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z40 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z41 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z42 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z43 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z44 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z45 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z46 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z47 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z48 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z49 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z50 F/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Ftb_classes/sequence_item.svh
+Ftb_classes/reset_sequence.svh
+Ftb_classes/add_sequence_item.svh
+Ftb_classes/or_sequence_item.svh
+Ftb_classes/mad_sequence_item.svh
+Ftb_classes/random_sequence.svh
+Ftb_classes/maxmult_sequence.svh
+Ftb_classes/tinyalu_or_sequence.svh
+Ftb_classes/tinyalu_mad_sequence.svh
+Ftb_classes/tinyalu_or_mad_parallel_sequence.svh
+Ftb_classes/runall_sequence.svh
+Ftb_classes/add_sequence.svh
+Ftb_classes/fibonacci_sequence.svh
+Ftb_classes/short_random_sequence.svh
+Ftb_classes/result_transaction.svh
+Ftb_classes/coverage.svh
+Ftb_classes/scoreboard.svh
+Ftb_classes/driver.svh
+Ftb_classes/command_monitor.svh
+Ftb_classes/result_monitor.svh
+Ftb_classes/env.svh
+Ftb_classes/parallel_sequence.svh
+Ftb_classes/tinyalu_base_test.svh
+Ftb_classes/full_test.svh
+Ftb_classes/fibonacci_test.svh
+Ftb_classes/parallel_test.svh
+!i122 1
+R31
+V>eeNNW2V<UfW`JM85U1aE1
+R33
+r1
+!s85 0
+31
+R9
+R34
+R35
+!i113 0
+R36
+R37
+R38
+vtop
+R26
+R27
+R28
+R29
+!i10b 1
+!s100 SU8oUMkU[2KZfe8@KV]_@2
+R30
+IE>[`m<KAiLYPLMMOSN_DJ0
+S1
+R0
+w1694599136
+8top.sv
+Ftop.sv
+Ftinyalu_macros.svh
+R39
+R40
+R41
+R42
+R43
+R44
+R45
+R46
+R47
+R48
+R49
+R50
+!i122 1
+L0 16 6504
+R32
+R33
+r1
+!s85 0
+31
+R9
+R34
+R35
+!i113 0
+R36
+R37
+R38
+Ttop_optimized
+!s11d tinyalu_pkg /uio/hume/student-u01/mohammzf/LISP/labtwo/uvmprimer-master/23_UVM_Sequences/work 1 tinyalu_bfm 1 /uio/hume/student-u01/mohammzf/LISP/labtwo/uvmprimer-master/23_UVM_Sequences/work 
+R29
+VJl4l<KM_=7[?SNNCAJgn`3
+04 3 4 work top fast 0
+o+acc +cover=sbfec+tinyalu(rtl).
+R38
+ntop_optimized
+OL;O;2020.4;71
